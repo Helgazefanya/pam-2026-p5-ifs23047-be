@@ -1,6 +1,6 @@
 ## Global Variabel
-#@BaseUrl = https://pam-2026-p5-ifs23047-be.delcom.org:8080
-@BaseUrl = http://127.0.0.1:8000
+#@BaseUrl = https://pam-2026-p5-ifs23047-be.helgazefanya.site:8080/
+@BaseUrl = http://127.0.0.1:8080
 
 ### ---------------------------------------
 ## Auth
@@ -78,7 +78,7 @@ Content-Type: application/json
 
 {
   "name": "Tester Update",
-  "username": "tester"
+  "username": "tester_baru1"
 }
 
 ### Mengubah kata sandi akun
@@ -104,9 +104,6 @@ Content-Type: image/png
 
 < ./uploads/examples/me.png
 --WebAppBoundary--
-
-### Mengambil data tumbuhan berdasarkan id-nya
-@userId = d5a197c2-f788-4f87-bd6d-1d816f755b3e
 
 # @name GetMyPhoto
 GET {{BaseUrl}}/images/users/{{userId}}
